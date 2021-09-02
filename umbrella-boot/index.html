@@ -16,7 +16,7 @@
 <body>
     <!-- header -->
     <header class="header" id="header">
-        <section class="container justify-content-end">
+        <section class="container justify-content-end"> <!-- No need to use justify-content-end here... -->
             <div class="row">
                 <div class="container d-flex justify-content-end">
                     <div class="dropdown show">
@@ -46,6 +46,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
+                    <!-- Nice structure!-->
                     <nav class="nav justify-content-end">
                         <ul class="nav">
                             <li class="nav-item"><a class="nav-link" href="#link">home</a></li>
@@ -133,6 +134,9 @@
                         <div class="image">
                             <img src="media/recycle.png" alt="placeholder img" class="img-fluid">          
                         </div>
+                        <!-- instead of using an h2 and a p (amazing is not a header) use a p tag and wrap the text in separate spans
+                            ex: <p><span class="big-text">amazing</span><span class="small-text">support</span></p>
+                        -->
                         <h2>amazing</h2>
                         <p>support</p>
                     </div>
